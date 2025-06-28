@@ -1,0 +1,168 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola", 
+        "Buenos días", 
+        "Buenas tardes", 
+        "Buenas noches",
+        "Qué tal", 
+        "Hey", 
+        "Saludos",
+        "Hola, ¿cómo estás?",
+        "¿Qué hay?",
+        "Buenas",
+        "Holi",
+        "Holaa"
+      ],
+      "responses": [
+        "¡Hola! 🎓 ¿En qué puedo ayudarte a elegir tu camino profesional?", 
+        "¡Bienvenido! 🌟 ¿Quieres descubrir qué carrera puede ser perfecta para ti?", 
+        "¡Hola! Soy tu asistente de orientación vocacional. ¿Listo para explorar tu futuro?",
+        "¡Saludos! 👋 Estoy aquí para ayudarte a encontrar la profesión ideal según tus habilidades."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós", 
+        "Hasta luego", 
+        "Nos vemos", 
+        "Chao", 
+        "Bye",
+        "Gracias, eso es todo",
+        "Ya me voy",
+        "Hasta pronto",
+        "Me tengo que ir",
+        "Gracias por todo",
+        "Perfecto, gracias"
+      ],
+      "responses": [
+        "¡Hasta luego! 🚀 Éxitos en tu futuro académico y profesional.", 
+        "¡Nos vemos pronto! 💪 Mucho éxito en tu camino.", 
+        "¡Gracias por usar el sistema! 🌟 Recuerda que tienes todo el potencial para lograrlo.",
+        "¡Que tengas un excelente día! 📚 Tu futuro profesional te espera."
+      ]
+    },
+    {
+      "tag": "peticiones",
+      "patterns": [
+        "¿Cómo funciona esto?", 
+        "¿Qué hago aquí?", 
+        "¿Me puedes ayudar?",
+        "¿Cómo puedes ayudarme?", 
+        "No entiendo",
+        "¿Qué necesitas de mí?",
+        "Explícame",
+        "¿Cómo empiezo?",
+        "¿Qué debo hacer?",
+        "Help",
+        "Ayuda",
+        "No sé cómo usar esto"
+      ],
+      "responses": [
+        "¡Perfecto! Te ayudo a descubrir tu profesión ideal. Solo necesito que me proporciones tus notas del 1 al 5 en las 8 materias que te solicitamos en el cuadro anterior.",
+        "Es muy fácil: comparte conmigo tus calificaciones en cada materia y te diré qué carreras se adaptan mejor a tu perfil.",
+        "Mi función es recomendarte carreras basándome en tus fortalezas. ¿Listo para compartir tus notas?",
+        "Soy un sistema de orientación vocacional. Analizo tus habilidades y te sugiero las mejores opciones profesionales para ti."
+      ]
+    },
+    {
+      "tag": "solicitud_notas",
+      "patterns": [
+        "¿Me puedes ayudar a elegir una carrera?",
+        "No sé qué estudiar", 
+        "Estoy confundido sobre qué carrera tomar",
+        "¿Qué carrera me recomiendas?",
+        "¿Qué debería estudiar?",
+        "Quiero saber mi carrera ideal",
+        "¿Cuál es la mejor carrera para mí?",
+        "¿En qué soy bueno?",
+        "¿Qué profesión me conviene?",
+        "¿Qué opciones tengo?",
+        "Necesito orientación vocacional",
+        "¿Qué notas necesitas?",
+        "¿Qué calificaciones debo darte?",
+        "¿Cómo te doy mis notas?",
+        "¿Qué materias evalúas?"
+      ],
+      "responses": [
+        "¡Claro que sí! 📝 Necesito que me compartas tus notas del 1 al 5 en: Lengua Castellana, Artistica, Educación Fisica, Matematicas, Dibujo Técnico, Civica y Urbanismo, Etica y Valores, y Ciencias Naturales.",
+        "Perfecto, te ayudo con gusto. Solo compárteme tus calificaciones del 1 al 5 en las 8 materias que trabajaste en la escuela.",
+        "¡Excelente! Para darte la mejor recomendación, necesito conocer tus fortalezas. Dime tus notas en cada una de las 8 materias que estan en el cuadro anterior.",
+        "Te ayudo a encontrar tu vocación. Comparte conmigo tus notas del 1 al 5 en: Lengua Castellana, Artistica, Educación Fisica, Matematicas, Dibujo Técnico, Civica y Urbanismo, Etica y Valores, y Ciencias Naturales."
+      ]
+    },
+    {
+      "tag": "recomendaciones",
+      "patterns": [
+        "¿Qué me recomiendas?",
+        "¿Cuál es mi resultado?",
+        "¿Qué carrera es para mí?",
+        "¿Cuál es mi profesión ideal?",
+        "Dame mi recomendación",
+        "¿Qué dice el análisis?",
+        "¿Cuál es mi perfil?",
+        "¿En qué soy bueno según mis notas?",
+        "¿Qué opciones tengo según mis calificaciones?",
+        "¿Qué carreras me quedan?",
+        "¿Cuál es mi mejor opción?",
+        "Dime mi resultado",
+        "¿Qué profesión me conviene más?"
+      ],
+      "responses": [
+        "¡Perfecto! 🎯 Basándome en tus notas, tu perfil se inclina hacia [PROFESIÓN]. Esta carrera aprovecha tus fortalezas en [INTELIGENCIAS DESTACADAS].",
+        "¡Excelente! 📊 Según tu perfil con las notas, te recomiendo considerar [PROFESIÓN]. Tienes gran potencial en esta área.",
+        "¡Genial! 🌟 Tus resultados indican que [PROFESIÓN] sería una excelente opción para ti, especialmente por tus altas calificaciones en [ÁREAS FUERTES].",
+        "¡Fantástico! 💡 Tu combinación de habilidades te hace ideal para [PROFESIÓN]. Esta carrera maximizará tu potencial natural."
+      ]
+    },
+    {
+      "tag": "consultas_adicionales",
+      "patterns": [
+        "¿Qué otras carreras hay?",
+        "¿Tienes más opciones?",
+        "¿Qué más puedo estudiar?",
+        "¿Hay otras alternativas?",
+        "¿Puedo cambiar de carrera?",
+        "¿Y si no me gusta esa carrera?",
+        "¿Qué pasa si mis notas cambian?",
+        "¿Cuántas carreras evalúas?",
+        "¿Qué tan preciso es esto?",
+        "¿Debería confiar en este resultado?",
+        "¿Hay garantía de éxito?",
+        "¿Qué tan seguro estás?"
+      ],
+      "responses": [
+        "¡Por supuesto! 🎓 Evalúo múltiples profesiones. Si quieres explorar más opciones, puedes actualizar tus notas o preguntarme por carreras específicas.",
+        "¡Claro! Este es un análisis basado en tus fortalezas actuales. Puedes explorar diferentes carreras y siempre puedes volver a evaluarte.",
+        "¡Exacto! Hay muchas opciones. Esta recomendación se basa en tu perfil actual, pero puedes considerar carreras relacionadas o cambiar tus notas si sientes que no reflejan tu realidad.",
+        "¡Sí! El resultado se basa en algoritmos de clasificación, pero recuerda que tú tienes la decisión final. Explora, investiga y elige lo que más te apasione."
+      ]
+    },
+    {
+      "tag": "motivacion",
+      "patterns": [
+        "¿Puedo lograr esto?",
+        "¿Seré bueno en esa carrera?",
+        "¿Tendré éxito?",
+        "¿Es difícil esa carrera?",
+        "¿Podré graduarme?",
+        "¿Crees que pueda?",
+        "¿Tengo las habilidades?",
+        "¿Será la correcta?",
+        "¿Y si me equivoco?",
+        "¿Debo intentarlo?",
+        "¿Vale la pena?",
+        "¿Estaré haciendo lo correcto?"
+      ],
+      "responses": [
+        "¡Absolutamente! 💪 Tus notas muestran que tienes las habilidades base. El éxito viene con dedicación y pasión.",
+        "¡Claro que sí! 🌟 Tienes el potencial. Recuerda que toda carrera requiere esfuerzo, pero tú ya tienes las aptitudes naturales.",
+        "¡Por supuesto! 🚀 Confía en tus habilidades. El análisis muestra que tienes un perfil compatible con esta profesión.",
+        "¡Sin duda! 💡 Tus fortalezas te dan una ventaja. Lo importante es que te apasione lo que elijas estudiar."
+      ]
+    }
+  ]
+}
